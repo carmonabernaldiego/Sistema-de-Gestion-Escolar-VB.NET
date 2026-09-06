@@ -1,0 +1,23 @@
+﻿## Visual Studio cache & temporales
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Compilados (Binarios)
+[Bb]in/
+[Oo]bj/
+
+## Paquetes NuGet
+packages/
+
+## Bases de datos locales y temporales
+*.sdf
+*.accdb
+*.laccdb
+
+## PublicaciÃ³n
+[Pp]ublish/
+publicar/
+*.publishproj
