@@ -24,7 +24,12 @@
         FrmIniciarSesion.Show()
     End Sub
 
-    Private Sub FrmSistemadeGestionEscolar_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Private Sub FrmSistemadeGestionEscolar_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        For Each ctl As Control In Me.Controls
+            If TypeOf ctl Is MdiClient Then
+                ctl.BackColor = Color.FromArgb(241, 245, 249)
+            End If
+        Next
         LblHora.Text = TimeOfDay
         CargarDatosUsuario()
     End Sub

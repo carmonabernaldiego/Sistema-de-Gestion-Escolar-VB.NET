@@ -72,8 +72,8 @@ Partial Class FrmConfiguracion
         Me.LblHeader.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.LblHeader.AutoEllipsis = True
-        Me.LblHeader.BackColor = System.Drawing.SystemColors.WindowFrame
-        Me.LblHeader.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblHeader.BackColor = System.Drawing.Color.FromArgb(CType(CType(203, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(225, Byte), Integer))
+        Me.LblHeader.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LblHeader.ForeColor = System.Drawing.SystemColors.Window
         Me.LblHeader.Location = New System.Drawing.Point(0, 0)
         Me.LblHeader.Name = "LblHeader"
@@ -120,7 +120,7 @@ Partial Class FrmConfiguracion
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label4.AutoEllipsis = True
         Me.Label4.BackColor = System.Drawing.SystemColors.Window
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.SystemColors.Window
         Me.Label4.Location = New System.Drawing.Point(0, 35)
         Me.Label4.Name = "Label4"
@@ -135,7 +135,7 @@ Partial Class FrmConfiguracion
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label1.AutoEllipsis = True
         Me.Label1.BackColor = System.Drawing.Color.White
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.WindowText
         Me.Label1.Location = New System.Drawing.Point(90, 51)
         Me.Label1.Name = "Label1"
@@ -187,7 +187,7 @@ Partial Class FrmConfiguracion
         Me.BtnExaminar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.BtnExaminar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.BtnExaminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnExaminar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnExaminar.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnExaminar.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BtnExaminar.Location = New System.Drawing.Point(16, 309)
         Me.BtnExaminar.Name = "BtnExaminar"
@@ -203,7 +203,7 @@ Partial Class FrmConfiguracion
         Me.Label3.AutoEllipsis = True
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.SystemColors.WindowText
         Me.Label3.Location = New System.Drawing.Point(196, 212)
         Me.Label3.Name = "Label3"
@@ -220,7 +220,7 @@ Partial Class FrmConfiguracion
         Me.Label5.AutoEllipsis = True
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Transparent
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.SystemColors.WindowText
         Me.Label5.Location = New System.Drawing.Point(196, 237)
         Me.Label5.Name = "Label5"
@@ -238,7 +238,7 @@ Partial Class FrmConfiguracion
         Me.BtnCambiarContrasena.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.BtnCambiarContrasena.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.BtnCambiarContrasena.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnCambiarContrasena.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnCambiarContrasena.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnCambiarContrasena.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BtnCambiarContrasena.Location = New System.Drawing.Point(201, 261)
         Me.BtnCambiarContrasena.Name = "BtnCambiarContrasena"
@@ -254,7 +254,7 @@ Partial Class FrmConfiguracion
         Me.Label6.AutoEllipsis = True
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.Color.Transparent
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.SystemColors.WindowText
         Me.Label6.Location = New System.Drawing.Point(201, 118)
         Me.Label6.Name = "Label6"
@@ -269,8 +269,8 @@ Partial Class FrmConfiguracion
         Me.Label2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label2.AutoEllipsis = True
-        Me.Label2.BackColor = System.Drawing.SystemColors.WindowFrame
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.BackColor = System.Drawing.Color.FromArgb(CType(CType(203, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(225, Byte), Integer))
+        Me.Label2.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.Window
         Me.Label2.Location = New System.Drawing.Point(647, 35)
         Me.Label2.Name = "Label2"
@@ -284,8 +284,8 @@ Partial Class FrmConfiguracion
         Me.Label7.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label7.AutoEllipsis = True
-        Me.Label7.BackColor = System.Drawing.SystemColors.WindowFrame
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.BackColor = System.Drawing.Color.FromArgb(CType(CType(203, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(225, Byte), Integer))
+        Me.Label7.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.SystemColors.Window
         Me.Label7.Location = New System.Drawing.Point(-7, 35)
         Me.Label7.Name = "Label7"
@@ -299,8 +299,8 @@ Partial Class FrmConfiguracion
         Me.Label8.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label8.AutoEllipsis = True
-        Me.Label8.BackColor = System.Drawing.SystemColors.WindowFrame
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.BackColor = System.Drawing.Color.FromArgb(CType(CType(203, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(225, Byte), Integer))
+        Me.Label8.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.SystemColors.Window
         Me.Label8.Location = New System.Drawing.Point(-1, 377)
         Me.Label8.Name = "Label8"
@@ -313,7 +313,7 @@ Partial Class FrmConfiguracion
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(250, Byte), Integer), CType(CType(252, Byte), Integer))
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(650, 380)
         Me.Controls.Add(Me.Label8)

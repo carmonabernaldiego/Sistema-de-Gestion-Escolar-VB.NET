@@ -73,10 +73,11 @@ Partial Class FrmSistemadeGestionEscolar
         Me.LblHeader.BackColor = System.Drawing.SystemColors.WindowFrame
         Me.LblHeader.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LblHeader.ForeColor = System.Drawing.SystemColors.Window
-        Me.LblHeader.Location = New System.Drawing.Point(2, 0)
+        Me.LblHeader.Location = New System.Drawing.Point(3, 0)
+        Me.LblHeader.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LblHeader.Name = "LblHeader"
         Me.LblHeader.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.LblHeader.Size = New System.Drawing.Size(781, 35)
+        Me.LblHeader.Size = New System.Drawing.Size(1172, 54)
         Me.LblHeader.TabIndex = 1
         Me.LblHeader.Text = "Sistema de Gestión Escolar"
         Me.LblHeader.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -93,11 +94,12 @@ Partial Class FrmSistemadeGestionEscolar
         Me.BtnMinimizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.BtnMinimizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.BtnMinimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnMinimizar.Font = New System.Drawing.Font("Monotype Corsiva", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnMinimizar.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnMinimizar.ForeColor = System.Drawing.Color.Black
-        Me.BtnMinimizar.Location = New System.Drawing.Point(724, 5)
+        Me.BtnMinimizar.Location = New System.Drawing.Point(1086, 8)
+        Me.BtnMinimizar.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BtnMinimizar.Name = "BtnMinimizar"
-        Me.BtnMinimizar.Size = New System.Drawing.Size(25, 25)
+        Me.BtnMinimizar.Size = New System.Drawing.Size(38, 38)
         Me.BtnMinimizar.TabIndex = 0
         Me.BtnMinimizar.TabStop = False
         Me.BtnMinimizar.UseVisualStyleBackColor = False
@@ -114,11 +116,12 @@ Partial Class FrmSistemadeGestionEscolar
         Me.BtnCerrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.BtnCerrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.BtnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnCerrar.Font = New System.Drawing.Font("Monotype Corsiva", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnCerrar.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnCerrar.ForeColor = System.Drawing.Color.Black
-        Me.BtnCerrar.Location = New System.Drawing.Point(753, 5)
+        Me.BtnCerrar.Location = New System.Drawing.Point(1130, 8)
+        Me.BtnCerrar.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BtnCerrar.Name = "BtnCerrar"
-        Me.BtnCerrar.Size = New System.Drawing.Size(25, 25)
+        Me.BtnCerrar.Size = New System.Drawing.Size(38, 38)
         Me.BtnCerrar.TabIndex = 0
         Me.BtnCerrar.TabStop = False
         Me.BtnCerrar.UseVisualStyleBackColor = False
@@ -130,11 +133,12 @@ Partial Class FrmSistemadeGestionEscolar
         Me.MenuStrip.AutoSize = False
         Me.MenuStrip.Dock = System.Windows.Forms.DockStyle.None
         Me.MenuStrip.GripMargin = New System.Windows.Forms.Padding(2)
+        Me.MenuStrip.ImageScalingSize = New System.Drawing.Size(24, 24)
         Me.MenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.UsuarioToolStripMenuItem, Me.ArchivoToolStripMenuItem, Me.AlumnosToolStripMenuItem, Me.DocentesToolStripMenuItem, Me.GruposToolStripMenuItem, Me.ReportesToolStripMenuItem, Me.AdministraciónToolStripMenuItem, Me.AyudaToolStripMenuItem})
         Me.MenuStrip.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow
-        Me.MenuStrip.Location = New System.Drawing.Point(2, 35)
+        Me.MenuStrip.Location = New System.Drawing.Point(3, 54)
         Me.MenuStrip.Name = "MenuStrip"
-        Me.MenuStrip.Size = New System.Drawing.Size(781, 24)
+        Me.MenuStrip.Size = New System.Drawing.Size(1172, 37)
         Me.MenuStrip.TabIndex = 17
         '
         'UsuarioToolStripMenuItem
@@ -143,194 +147,195 @@ Partial Class FrmSistemadeGestionEscolar
         Me.UsuarioToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ConfiguraciónToolStripMenuItem1, Me.ToolStripMenuItem2, Me.CerrarSesiónToolStripMenuItem})
         Me.UsuarioToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.UsuarioToolStripMenuItem.Name = "UsuarioToolStripMenuItem"
-        Me.UsuarioToolStripMenuItem.Size = New System.Drawing.Size(59, 20)
+        Me.UsuarioToolStripMenuItem.Size = New System.Drawing.Size(88, 31)
         Me.UsuarioToolStripMenuItem.Text = "Usuario"
         Me.UsuarioToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'ConfiguraciónToolStripMenuItem1
         '
         Me.ConfiguraciónToolStripMenuItem1.Name = "ConfiguraciónToolStripMenuItem1"
-        Me.ConfiguraciónToolStripMenuItem1.Size = New System.Drawing.Size(150, 22)
+        Me.ConfiguraciónToolStripMenuItem1.Size = New System.Drawing.Size(225, 34)
         Me.ConfiguraciónToolStripMenuItem1.Text = "Configuración"
         '
         'ToolStripMenuItem2
         '
         Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
-        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(147, 6)
+        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(222, 6)
         '
         'CerrarSesiónToolStripMenuItem
         '
         Me.CerrarSesiónToolStripMenuItem.Name = "CerrarSesiónToolStripMenuItem"
-        Me.CerrarSesiónToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
+        Me.CerrarSesiónToolStripMenuItem.Size = New System.Drawing.Size(225, 34)
         Me.CerrarSesiónToolStripMenuItem.Text = "Cerrar Sesión"
         '
         'ArchivoToolStripMenuItem
         '
         Me.ArchivoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CerrarFormulariosActivosToolStripMenuItem, Me.ToolStripMenuItem1, Me.SalirToolStripMenuItem})
         Me.ArchivoToolStripMenuItem.Name = "ArchivoToolStripMenuItem"
-        Me.ArchivoToolStripMenuItem.Size = New System.Drawing.Size(60, 20)
+        Me.ArchivoToolStripMenuItem.Size = New System.Drawing.Size(88, 31)
         Me.ArchivoToolStripMenuItem.Text = "Archivo"
         '
         'CerrarFormulariosActivosToolStripMenuItem
         '
         Me.CerrarFormulariosActivosToolStripMenuItem.Name = "CerrarFormulariosActivosToolStripMenuItem"
-        Me.CerrarFormulariosActivosToolStripMenuItem.Size = New System.Drawing.Size(214, 22)
+        Me.CerrarFormulariosActivosToolStripMenuItem.Size = New System.Drawing.Size(323, 34)
         Me.CerrarFormulariosActivosToolStripMenuItem.Text = "Cerrar Formularios Activos"
         '
         'ToolStripMenuItem1
         '
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(211, 6)
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(320, 6)
         '
         'SalirToolStripMenuItem
         '
         Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
-        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(214, 22)
+        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(323, 34)
         Me.SalirToolStripMenuItem.Text = "Salir"
         '
         'AlumnosToolStripMenuItem
         '
         Me.AlumnosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ReportesDeCalificacionesToolStripMenuItem})
         Me.AlumnosToolStripMenuItem.Name = "AlumnosToolStripMenuItem"
-        Me.AlumnosToolStripMenuItem.Size = New System.Drawing.Size(67, 20)
+        Me.AlumnosToolStripMenuItem.Size = New System.Drawing.Size(99, 31)
         Me.AlumnosToolStripMenuItem.Text = "Alumnos"
         '
         'ReportesDeCalificacionesToolStripMenuItem
         '
         Me.ReportesDeCalificacionesToolStripMenuItem.Name = "ReportesDeCalificacionesToolStripMenuItem"
-        Me.ReportesDeCalificacionesToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
+        Me.ReportesDeCalificacionesToolStripMenuItem.Size = New System.Drawing.Size(319, 34)
         Me.ReportesDeCalificacionesToolStripMenuItem.Text = "Reportes de Calificaciones"
         '
         'DocentesToolStripMenuItem
         '
         Me.DocentesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CapturaDeCalificacionesToolStripMenuItem})
         Me.DocentesToolStripMenuItem.Name = "DocentesToolStripMenuItem"
-        Me.DocentesToolStripMenuItem.Size = New System.Drawing.Size(68, 20)
+        Me.DocentesToolStripMenuItem.Size = New System.Drawing.Size(102, 31)
         Me.DocentesToolStripMenuItem.Text = "Docentes"
         '
         'CapturaDeCalificacionesToolStripMenuItem
         '
         Me.CapturaDeCalificacionesToolStripMenuItem.Name = "CapturaDeCalificacionesToolStripMenuItem"
-        Me.CapturaDeCalificacionesToolStripMenuItem.Size = New System.Drawing.Size(208, 22)
+        Me.CapturaDeCalificacionesToolStripMenuItem.Size = New System.Drawing.Size(311, 34)
         Me.CapturaDeCalificacionesToolStripMenuItem.Text = "Captura de Calificaciones"
         '
         'GruposToolStripMenuItem
         '
         Me.GruposToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AdministraciónDeGruposToolStripMenuItem})
         Me.GruposToolStripMenuItem.Name = "GruposToolStripMenuItem"
-        Me.GruposToolStripMenuItem.Size = New System.Drawing.Size(57, 20)
+        Me.GruposToolStripMenuItem.Size = New System.Drawing.Size(86, 31)
         Me.GruposToolStripMenuItem.Text = "Grupos"
         '
         'AdministraciónDeGruposToolStripMenuItem
         '
         Me.AdministraciónDeGruposToolStripMenuItem.Name = "AdministraciónDeGruposToolStripMenuItem"
-        Me.AdministraciónDeGruposToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
+        Me.AdministraciónDeGruposToolStripMenuItem.Size = New System.Drawing.Size(321, 34)
         Me.AdministraciónDeGruposToolStripMenuItem.Text = "Administración de Grupos"
         '
         'ReportesToolStripMenuItem
         '
         Me.ReportesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ReporteDeUsuariosToolStripMenuItem, Me.ToolStripMenuItem4, Me.ReporteDeAlumnosToolStripMenuItem, Me.ReporteDeDocentesToolStripMenuItem, Me.ReporteDePersonalToolStripMenuItem})
         Me.ReportesToolStripMenuItem.Name = "ReportesToolStripMenuItem"
-        Me.ReportesToolStripMenuItem.Size = New System.Drawing.Size(65, 20)
+        Me.ReportesToolStripMenuItem.Size = New System.Drawing.Size(98, 31)
         Me.ReportesToolStripMenuItem.Text = "Reportes"
         '
         'ReporteDeUsuariosToolStripMenuItem
         '
         Me.ReporteDeUsuariosToolStripMenuItem.Name = "ReporteDeUsuariosToolStripMenuItem"
-        Me.ReporteDeUsuariosToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ReporteDeUsuariosToolStripMenuItem.Size = New System.Drawing.Size(188, 34)
         Me.ReporteDeUsuariosToolStripMenuItem.Text = "Usuarios"
         '
         'ToolStripMenuItem4
         '
         Me.ToolStripMenuItem4.Name = "ToolStripMenuItem4"
-        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(149, 6)
+        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(185, 6)
         '
         'ReporteDeAlumnosToolStripMenuItem
         '
         Me.ReporteDeAlumnosToolStripMenuItem.Name = "ReporteDeAlumnosToolStripMenuItem"
-        Me.ReporteDeAlumnosToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ReporteDeAlumnosToolStripMenuItem.Size = New System.Drawing.Size(188, 34)
         Me.ReporteDeAlumnosToolStripMenuItem.Text = "Alumnos"
         '
         'ReporteDeDocentesToolStripMenuItem
         '
         Me.ReporteDeDocentesToolStripMenuItem.Name = "ReporteDeDocentesToolStripMenuItem"
-        Me.ReporteDeDocentesToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ReporteDeDocentesToolStripMenuItem.Size = New System.Drawing.Size(188, 34)
         Me.ReporteDeDocentesToolStripMenuItem.Text = "Docentes"
         '
         'ReporteDePersonalToolStripMenuItem
         '
         Me.ReporteDePersonalToolStripMenuItem.Name = "ReporteDePersonalToolStripMenuItem"
-        Me.ReporteDePersonalToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ReporteDePersonalToolStripMenuItem.Size = New System.Drawing.Size(188, 34)
         Me.ReporteDePersonalToolStripMenuItem.Text = "Personal"
         '
         'AdministraciónToolStripMenuItem
         '
         Me.AdministraciónToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AdministraciónDeUsuariosToolStripMenuItem, Me.AdministraciónDeCarrerasToolStripMenuItem, Me.AdministraciónDeSemestresToolStripMenuItem, Me.ToolStripMenuItem3, Me.AdministraciónDeAlumnosToolStripMenuItem, Me.AdminitraciónDeDocentesToolStripMenuItem, Me.AdministraciónDePersonalToolStripMenuItem})
         Me.AdministraciónToolStripMenuItem.Name = "AdministraciónToolStripMenuItem"
-        Me.AdministraciónToolStripMenuItem.Size = New System.Drawing.Size(100, 20)
+        Me.AdministraciónToolStripMenuItem.Size = New System.Drawing.Size(147, 31)
         Me.AdministraciónToolStripMenuItem.Text = "Administración"
         '
         'AdministraciónDeUsuariosToolStripMenuItem
         '
         Me.AdministraciónDeUsuariosToolStripMenuItem.Name = "AdministraciónDeUsuariosToolStripMenuItem"
-        Me.AdministraciónDeUsuariosToolStripMenuItem.Size = New System.Drawing.Size(227, 22)
+        Me.AdministraciónDeUsuariosToolStripMenuItem.Size = New System.Drawing.Size(344, 34)
         Me.AdministraciónDeUsuariosToolStripMenuItem.Text = "Administración de Usuarios"
         '
         'AdministraciónDeCarrerasToolStripMenuItem
         '
         Me.AdministraciónDeCarrerasToolStripMenuItem.Name = "AdministraciónDeCarrerasToolStripMenuItem"
-        Me.AdministraciónDeCarrerasToolStripMenuItem.Size = New System.Drawing.Size(227, 22)
+        Me.AdministraciónDeCarrerasToolStripMenuItem.Size = New System.Drawing.Size(344, 34)
         Me.AdministraciónDeCarrerasToolStripMenuItem.Text = "Administración de Carreras"
         '
         'AdministraciónDeSemestresToolStripMenuItem
         '
         Me.AdministraciónDeSemestresToolStripMenuItem.Name = "AdministraciónDeSemestresToolStripMenuItem"
-        Me.AdministraciónDeSemestresToolStripMenuItem.Size = New System.Drawing.Size(227, 22)
+        Me.AdministraciónDeSemestresToolStripMenuItem.Size = New System.Drawing.Size(344, 34)
         Me.AdministraciónDeSemestresToolStripMenuItem.Text = "Administración de Semestres"
         '
         'ToolStripMenuItem3
         '
         Me.ToolStripMenuItem3.Name = "ToolStripMenuItem3"
-        Me.ToolStripMenuItem3.Size = New System.Drawing.Size(224, 6)
+        Me.ToolStripMenuItem3.Size = New System.Drawing.Size(341, 6)
         '
         'AdministraciónDeAlumnosToolStripMenuItem
         '
         Me.AdministraciónDeAlumnosToolStripMenuItem.Name = "AdministraciónDeAlumnosToolStripMenuItem"
-        Me.AdministraciónDeAlumnosToolStripMenuItem.Size = New System.Drawing.Size(227, 22)
+        Me.AdministraciónDeAlumnosToolStripMenuItem.Size = New System.Drawing.Size(344, 34)
         Me.AdministraciónDeAlumnosToolStripMenuItem.Text = "Administración de Alumnos"
         '
         'AdminitraciónDeDocentesToolStripMenuItem
         '
         Me.AdminitraciónDeDocentesToolStripMenuItem.Name = "AdminitraciónDeDocentesToolStripMenuItem"
-        Me.AdminitraciónDeDocentesToolStripMenuItem.Size = New System.Drawing.Size(227, 22)
+        Me.AdminitraciónDeDocentesToolStripMenuItem.Size = New System.Drawing.Size(344, 34)
         Me.AdminitraciónDeDocentesToolStripMenuItem.Text = "Administración de Docentes"
         '
         'AdministraciónDePersonalToolStripMenuItem
         '
         Me.AdministraciónDePersonalToolStripMenuItem.Name = "AdministraciónDePersonalToolStripMenuItem"
-        Me.AdministraciónDePersonalToolStripMenuItem.Size = New System.Drawing.Size(227, 22)
+        Me.AdministraciónDePersonalToolStripMenuItem.Size = New System.Drawing.Size(344, 34)
         Me.AdministraciónDePersonalToolStripMenuItem.Text = "Administración de Personal"
         '
         'AyudaToolStripMenuItem
         '
         Me.AyudaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AcercaDeSistemaDeGestiónEscolarToolStripMenuItem})
         Me.AyudaToolStripMenuItem.Name = "AyudaToolStripMenuItem"
-        Me.AyudaToolStripMenuItem.Size = New System.Drawing.Size(53, 20)
+        Me.AyudaToolStripMenuItem.Size = New System.Drawing.Size(79, 31)
         Me.AyudaToolStripMenuItem.Text = "Ayuda"
         '
         'AcercaDeSistemaDeGestiónEscolarToolStripMenuItem
         '
         Me.AcercaDeSistemaDeGestiónEscolarToolStripMenuItem.Name = "AcercaDeSistemaDeGestiónEscolarToolStripMenuItem"
-        Me.AcercaDeSistemaDeGestiónEscolarToolStripMenuItem.Size = New System.Drawing.Size(269, 22)
+        Me.AcercaDeSistemaDeGestiónEscolarToolStripMenuItem.Size = New System.Drawing.Size(408, 34)
         Me.AcercaDeSistemaDeGestiónEscolarToolStripMenuItem.Text = "Acerca de Sistema de Gestión Escolar"
         '
         'PictureBoxHerramientas
         '
         Me.PictureBoxHerramientas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.PictureBoxHerramientas.Image = CType(resources.GetObject("PictureBoxHerramientas.Image"), System.Drawing.Image)
-        Me.PictureBoxHerramientas.Location = New System.Drawing.Point(7, 8)
+        Me.PictureBoxHerramientas.Location = New System.Drawing.Point(10, 12)
+        Me.PictureBoxHerramientas.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.PictureBoxHerramientas.Name = "PictureBoxHerramientas"
-        Me.PictureBoxHerramientas.Size = New System.Drawing.Size(20, 20)
+        Me.PictureBoxHerramientas.Size = New System.Drawing.Size(30, 31)
         Me.PictureBoxHerramientas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBoxHerramientas.TabIndex = 19
         Me.PictureBoxHerramientas.TabStop = False
@@ -341,9 +346,10 @@ Partial Class FrmSistemadeGestionEscolar
         Me.LblHora.BackColor = System.Drawing.SystemColors.WindowFrame
         Me.LblHora.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LblHora.ForeColor = System.Drawing.SystemColors.Window
-        Me.LblHora.Location = New System.Drawing.Point(41, 10)
+        Me.LblHora.Location = New System.Drawing.Point(62, 15)
+        Me.LblHora.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LblHora.Name = "LblHora"
-        Me.LblHora.Size = New System.Drawing.Size(56, 16)
+        Me.LblHora.Size = New System.Drawing.Size(90, 25)
         Me.LblHora.TabIndex = 21
         Me.LblHora.Text = "00:00:00"
         '
@@ -354,11 +360,11 @@ Partial Class FrmSistemadeGestionEscolar
         '
         'FrmSistemadeGestionEscolar
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Control
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(784, 462)
+        Me.ClientSize = New System.Drawing.Size(1176, 711)
         Me.Controls.Add(Me.LblHora)
         Me.Controls.Add(Me.PictureBoxHerramientas)
         Me.Controls.Add(Me.BtnMinimizar)
@@ -369,6 +375,7 @@ Partial Class FrmSistemadeGestionEscolar
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.IsMdiContainer = True
         Me.MainMenuStrip = Me.MenuStrip
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "FrmSistemadeGestionEscolar"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Sistema de Gestion Escolar"

@@ -6,37 +6,28 @@ Public Class FrmIniciarSesion
     Dim ex, ey As Integer
     Dim Arrastre As Boolean
 
-    Public Function Usuarios()
+    Public Function Usuarios() As Boolean
 
         Cursor = Cursors.WaitCursor
 
-        Dim ds As New DataSet
-        Dim dt As New DataTable
+        Dim dt As New DataTable()
         Dim da As New SqlDataAdapter("SELECT * FROM usuarios", conexion)
-
-        ds.Tables.Add(dt)
         da.Fill(dt)
 
-        conexion.Open()
-
-        For Each datarow In dt.Rows
-            If TxtUsuario.Text = datarow.item(0) And TxtContrasena.Text = datarow(1) Then
-                If 100 = datarow(2) Then
-                    conexion.Close()
+        For Each datarow As DataRow In dt.Rows
+            If TxtUsuario.Text = datarow(0).ToString() AndAlso TxtContrasena.Text = datarow(1).ToString() Then
+                Dim rol As Integer = Convert.ToInt32(datarow(2))
+                If rol = 100 Then
                     LoadingUser()
+                    Cursor = Cursors.Default
                     Return True
-                ElseIf 75 = datarow(2) Then
-                    Return True
-                ElseIf 50 = datarow(2) Then
-                    Return True
-                ElseIf 25 = datarow(2) Then
+                ElseIf rol = 75 OrElse rol = 50 OrElse rol = 25 Then
+                    Cursor = Cursors.Default
                     Return True
                 End If
             End If
-            conexion.Close()
         Next
 
-        conexion.Close()
         Cursor = Cursors.Default
         Return False
 
@@ -44,48 +35,49 @@ Public Class FrmIniciarSesion
 
     Private Sub LoadingUser()
 
-        conexion.Open()
+        Using cmd As New SqlClient.SqlCommand("SELECT * FROM usuarios, alumnos WHERE usuarios.usuario = alumnos.idalumno AND usuario = @usr", conexion)
+            cmd.Parameters.AddWithValue("@usr", TxtUsuario.Text.Trim())
+            If conexion.State <> ConnectionState.Open Then conexion.Open()
 
-        Dim consulta As String
-        consulta = "SELECT * FROM usuarios, alumnos WHERE usuarios.usuario = alumnos.idalumno AND usuario='" & TxtUsuario.Text & "'"
-
-        Dim command As New SqlClient.SqlCommand(consulta, conexion)
-
-        Dim datareader As SqlClient.SqlDataReader
-        datareader = command.ExecuteReader
-
-        If datareader.Read Then
-            usuario = datareader(0)
-            contrasena = datareader(1)
-            nombre = datareader(7)
-            apellidop = datareader(8)
-            apellidom = datareader(9)
-            imagen = datareader(3)
-        End If
-        conexion.Close()
+            Using datareader As SqlClient.SqlDataReader = cmd.ExecuteReader()
+                If datareader.Read() Then
+                    usuario = datareader(0).ToString()
+                    contrasena = datareader(1).ToString()
+                    nombre = datareader(7).ToString()
+                    apellidop = datareader(8).ToString()
+                    apellidom = datareader(9).ToString()
+                    imagen = datareader(3).ToString()
+                End If
+            End Using
+            conexion.Close()
+        End Using
 
         Me.Hide()
 
     End Sub
 
     Private Sub RestablecerFormulario()
-        CbbxOpcion.Text = "Seleccione"
-        CbbxOpcion.Focus()
+        If CbbxOpcion.Items.Count > 0 Then
+            CbbxOpcion.SelectedIndex = 0
+        End If
         TxtUsuario.Text = Nothing
         TxtContrasena.Text = Nothing
         Cursor = Cursors.Default
     End Sub
+
     Private Sub FrmIniciarSesion_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         CrearConexion()
         My.Settings.Item("bdsisescolarConnectionString") = cadenaconexion
         My.Settings.Save()
         conexion.ConnectionString = cadenaconexion
+        If CbbxOpcion.Items.Count > 0 AndAlso CbbxOpcion.SelectedIndex = -1 Then
+            CbbxOpcion.SelectedIndex = 0
+        End If
     End Sub
 
     Private Sub LblHeader_MouseDown(ByVal sender As System.Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles LblHeader.MouseDown
         ex = e.X
         ey = e.Y
-
         Arrastre = True
     End Sub
 
@@ -110,26 +102,20 @@ Public Class FrmIniciarSesion
     End Sub
 
     Private Sub BtnIngresar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnIngresar.Click
-        If CbbxOpcion.Text = "Seleccioné" Then
+        If CbbxOpcion.SelectedIndex < 0 OrElse CbbxOpcion.Text.StartsWith("Seleccion", StringComparison.OrdinalIgnoreCase) Then
             MsgBox("DEBE SELECCIONAR EL TIPO DE CUENTA", MessageBoxIcon.Error)
             CbbxOpcion.Focus()
-        ElseIf TxtUsuario.Text = "" Then
+        ElseIf TxtUsuario.Text.Trim() = "" Then
             MsgBox("USUARIO: ESTE CAMPO NO PUEDE ESTAR VACIO", MessageBoxIcon.Error)
             TxtUsuario.Focus()
         ElseIf TxtContrasena.Text = "" Then
-            MsgBox("CONTRASEÑA: ESTE CAMPO NO PUEDE ESTAR VACIO", MessageBoxIcon.Error)
+            MsgBox("CONTRASEÃ‘A: ESTE CAMPO NO PUEDE ESTAR VACIO", MessageBoxIcon.Error)
             TxtContrasena.Focus()
-        ElseIf CbbxOpcion.Text = "Administrador" And Usuarios() = True Then
-            FrmSistemadeGestionEscolar.Show()
-            RestablecerFormulario()
-        ElseIf CbbxOpcion.Text = "Alumno" And Usuarios() = True Then
-            FrmSistemadeGestionEscolar.Show()
-            RestablecerFormulario()
-        ElseIf CbbxOpcion.Text = "Docente" And Usuarios() = True Then
+        ElseIf Usuarios() = True Then
             FrmSistemadeGestionEscolar.Show()
             RestablecerFormulario()
         Else
-            MsgBox("USUARIO O CONTRASEÑA INCORRECTOS", MessageBoxIcon.Error)
+            MsgBox("USUARIO O CONTRASEÃ‘A INCORRECTOS", MessageBoxIcon.Error)
             RestablecerFormulario()
         End If
     End Sub

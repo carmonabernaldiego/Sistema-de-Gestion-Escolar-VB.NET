@@ -17,7 +17,7 @@ packages/
 *.accdb
 *.laccdb
 
-## PublicaciÃ³n
-[Pp]ublish/
+## Publicación
+publish/
 publicar/
 *.publishproj

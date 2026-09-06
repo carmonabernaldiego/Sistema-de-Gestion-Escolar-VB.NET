@@ -114,8 +114,8 @@ Partial Class FrmRegistrarAlumno
         Me.LblHeader.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.LblHeader.AutoEllipsis = True
-        Me.LblHeader.BackColor = System.Drawing.SystemColors.WindowFrame
-        Me.LblHeader.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblHeader.BackColor = System.Drawing.Color.FromArgb(CType(CType(203, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(225, Byte), Integer))
+        Me.LblHeader.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LblHeader.ForeColor = System.Drawing.SystemColors.Window
         Me.LblHeader.Location = New System.Drawing.Point(0, 0)
         Me.LblHeader.Name = "LblHeader"
@@ -127,7 +127,7 @@ Partial Class FrmRegistrarAlumno
         '
         'TxtIdAlumno
         '
-        Me.TxtIdAlumno.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtIdAlumno.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtIdAlumno.ForeColor = System.Drawing.SystemColors.WindowText
         Me.TxtIdAlumno.Location = New System.Drawing.Point(22, 34)
         Me.TxtIdAlumno.Name = "TxtIdAlumno"
@@ -138,7 +138,7 @@ Partial Class FrmRegistrarAlumno
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.WindowText
         Me.Label2.Location = New System.Drawing.Point(18, 11)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
@@ -151,7 +151,7 @@ Partial Class FrmRegistrarAlumno
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.WindowText
         Me.Label1.Location = New System.Drawing.Point(253, 11)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
@@ -162,7 +162,7 @@ Partial Class FrmRegistrarAlumno
         '
         'TxtNombre
         '
-        Me.TxtNombre.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtNombre.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtNombre.ForeColor = System.Drawing.SystemColors.WindowText
         Me.TxtNombre.Location = New System.Drawing.Point(257, 34)
         Me.TxtNombre.Name = "TxtNombre"
@@ -173,7 +173,7 @@ Partial Class FrmRegistrarAlumno
         '
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.SystemColors.WindowText
         Me.Label3.Location = New System.Drawing.Point(18, 62)
         Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
@@ -184,7 +184,7 @@ Partial Class FrmRegistrarAlumno
         '
         'TxtApellidoP
         '
-        Me.TxtApellidoP.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtApellidoP.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtApellidoP.ForeColor = System.Drawing.SystemColors.WindowText
         Me.TxtApellidoP.Location = New System.Drawing.Point(22, 85)
         Me.TxtApellidoP.Name = "TxtApellidoP"
@@ -193,7 +193,7 @@ Partial Class FrmRegistrarAlumno
         '
         'TxtApellidoM
         '
-        Me.TxtApellidoM.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtApellidoM.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtApellidoM.ForeColor = System.Drawing.SystemColors.WindowText
         Me.TxtApellidoM.Location = New System.Drawing.Point(257, 85)
         Me.TxtApellidoM.Name = "TxtApellidoM"
@@ -204,7 +204,7 @@ Partial Class FrmRegistrarAlumno
         '
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.SystemColors.WindowText
         Me.Label4.Location = New System.Drawing.Point(253, 62)
         Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
@@ -218,7 +218,7 @@ Partial Class FrmRegistrarAlumno
         Me.TabControlDatos.Controls.Add(Me.TabPageDatosAlumno)
         Me.TabControlDatos.Controls.Add(Me.TabPageDatosPadre)
         Me.TabControlDatos.Controls.Add(Me.TabPageDatosGenerales)
-        Me.TabControlDatos.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TabControlDatos.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TabControlDatos.HotTrack = True
         Me.TabControlDatos.Location = New System.Drawing.Point(12, 126)
         Me.TabControlDatos.Name = "TabControlDatos"
@@ -259,7 +259,7 @@ Partial Class FrmRegistrarAlumno
         'CbbxMunicipio
         '
         Me.CbbxMunicipio.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource
-        Me.CbbxMunicipio.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CbbxMunicipio.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CbbxMunicipio.ForeColor = System.Drawing.SystemColors.ControlText
         Me.CbbxMunicipio.FormattingEnabled = True
         Me.CbbxMunicipio.Items.AddRange(New Object() {"Acacoyagua", "Acala", "Acapetahua", "Aldama", "Altamirano", "Amatán", "Amatenango de la Frontera", "Amatenango del Valle", "Ángel Albino Corzo", "Arriaga", "Bejucal de Ocampo", "Bella Vista", "Benemérito de las Américas", "Berriozábal", "Bochil", "Cacahoatán", "Catazajá", "Chalchihuitán", "Chamula", "Chanal", "Chapultenango", "Chenalhó", "Chiapa de Corzo", "Chiapilla", "Chicoasén", "Chicomosuelo", "Chilón", "Cintalpa", "Coapilla", "Comitán de Domínguez", "Copainalá", "El Bosque", "El Porvenir", "Escuintla", "Francisco León", "Frontera Comalapa", "Frontera Hidalgo", "Huehuetán", "Huitiupán", "Huixtán", "Huixtla", "Ixhuatán", "Ixtacomitán", "Ixtapa", "Ixtapangajoya", "Jiquipilas", "Jitotol", "Juárez", "La Concordia", "La Grandeza", "La Independencia", "La Libertad", "La Trinitaria", "Larráinzar", "Las Margaritas", "Las Rosas", "Mapastepec", "Maravilla Tenejapa", "Marqués de Comillas", "Mazapa de Madero", "Mazatán", "Metapa", "Mitontic", "Montecristo de Guerrero", "Motozintla", "Nicolás Ruíz", "Ocosingo", "Ocotepec", "Ocozocoautla de Espinosa", "Ostuacán", "Osumacinta", "Oxchuc", "Palenque", "Pantelhó", "Pantepec", "Pichucalco", "Pijijiapan", "Pueblo Nuevo Solistahuacán", "Rayón", "Reforma", "Sabanilla", "Salto de Agua", "San Andrés Duraznal", "San Cristóbal de las Casas", "San Fernando", "San Juan Cancuc", "San Lucas", "Santiago el Pinar", "Siltepec", "Simojovel", "Sitalá", "Socoltenango", "Solosuchiapa", "Soyaló", "Suchiapa", "Suchiate", "Sunuapa", "Tapachula", "Tapalapa", "Tapilula", "Tecpatán", "Tenejapa", "Teopisca", "Tila", "Tonalá", "Totolapa", "Tumbalá", "Tuxtla Chico", "Tuxtla Gutiérrez", "Tuzantán", "Tzimol", "Unión Juárez", "Venustiano Carranza", "Villa Comaltitlán", "Villa Corzo", "Villaflores", "Yajalón", "Zinacantán"})
@@ -284,7 +284,7 @@ Partial Class FrmRegistrarAlumno
         '
         Me.Label10.AutoSize = True
         Me.Label10.BackColor = System.Drawing.Color.Transparent
-        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.SystemColors.WindowText
         Me.Label10.Location = New System.Drawing.Point(253, 215)
         Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
@@ -297,7 +297,7 @@ Partial Class FrmRegistrarAlumno
         '
         Me.Label9.AutoSize = True
         Me.Label9.BackColor = System.Drawing.Color.Transparent
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.SystemColors.WindowText
         Me.Label9.Location = New System.Drawing.Point(18, 214)
         Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
@@ -310,7 +310,7 @@ Partial Class FrmRegistrarAlumno
         '
         Me.Label8.AutoSize = True
         Me.Label8.BackColor = System.Drawing.Color.Transparent
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.SystemColors.WindowText
         Me.Label8.Location = New System.Drawing.Point(253, 164)
         Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
@@ -321,7 +321,7 @@ Partial Class FrmRegistrarAlumno
         '
         'TxtDireccion
         '
-        Me.TxtDireccion.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtDireccion.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtDireccion.ForeColor = System.Drawing.SystemColors.WindowText
         Me.TxtDireccion.Location = New System.Drawing.Point(257, 187)
         Me.TxtDireccion.Name = "TxtDireccion"
@@ -332,7 +332,7 @@ Partial Class FrmRegistrarAlumno
         '
         Me.Label7.AutoSize = True
         Me.Label7.BackColor = System.Drawing.Color.Transparent
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.SystemColors.WindowText
         Me.Label7.Location = New System.Drawing.Point(18, 164)
         Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
@@ -343,7 +343,7 @@ Partial Class FrmRegistrarAlumno
         '
         'TxtTelefono
         '
-        Me.TxtTelefono.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtTelefono.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtTelefono.ForeColor = System.Drawing.SystemColors.WindowText
         Me.TxtTelefono.Location = New System.Drawing.Point(22, 187)
         Me.TxtTelefono.Name = "TxtTelefono"
@@ -354,7 +354,7 @@ Partial Class FrmRegistrarAlumno
         '
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.Color.Transparent
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.SystemColors.WindowText
         Me.Label6.Location = New System.Drawing.Point(253, 113)
         Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
@@ -365,7 +365,7 @@ Partial Class FrmRegistrarAlumno
         '
         'TxtRFC
         '
-        Me.TxtRFC.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtRFC.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtRFC.ForeColor = System.Drawing.SystemColors.WindowText
         Me.TxtRFC.Location = New System.Drawing.Point(257, 136)
         Me.TxtRFC.Name = "TxtRFC"
@@ -376,7 +376,7 @@ Partial Class FrmRegistrarAlumno
         '
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Transparent
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.SystemColors.WindowText
         Me.Label5.Location = New System.Drawing.Point(18, 113)
         Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
@@ -387,7 +387,7 @@ Partial Class FrmRegistrarAlumno
         '
         'TxtCURP
         '
-        Me.TxtCURP.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtCURP.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtCURP.ForeColor = System.Drawing.SystemColors.WindowText
         Me.TxtCURP.Location = New System.Drawing.Point(22, 136)
         Me.TxtCURP.Name = "TxtCURP"
@@ -416,7 +416,7 @@ Partial Class FrmRegistrarAlumno
         '
         Me.Label11.AutoSize = True
         Me.Label11.BackColor = System.Drawing.Color.Transparent
-        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.SystemColors.WindowText
         Me.Label11.Location = New System.Drawing.Point(253, 62)
         Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
@@ -427,7 +427,7 @@ Partial Class FrmRegistrarAlumno
         '
         'TxtTelefonoTutor
         '
-        Me.TxtTelefonoTutor.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtTelefonoTutor.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtTelefonoTutor.ForeColor = System.Drawing.SystemColors.WindowText
         Me.TxtTelefonoTutor.Location = New System.Drawing.Point(257, 85)
         Me.TxtTelefonoTutor.Name = "TxtTelefonoTutor"
@@ -438,7 +438,7 @@ Partial Class FrmRegistrarAlumno
         '
         Me.Label12.AutoSize = True
         Me.Label12.BackColor = System.Drawing.Color.Transparent
-        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.ForeColor = System.Drawing.SystemColors.WindowText
         Me.Label12.Location = New System.Drawing.Point(18, 62)
         Me.Label12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
@@ -449,7 +449,7 @@ Partial Class FrmRegistrarAlumno
         '
         'TxtApellidoTutorM
         '
-        Me.TxtApellidoTutorM.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtApellidoTutorM.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtApellidoTutorM.ForeColor = System.Drawing.SystemColors.WindowText
         Me.TxtApellidoTutorM.Location = New System.Drawing.Point(22, 85)
         Me.TxtApellidoTutorM.Name = "TxtApellidoTutorM"
@@ -460,7 +460,7 @@ Partial Class FrmRegistrarAlumno
         '
         Me.Label13.AutoSize = True
         Me.Label13.BackColor = System.Drawing.Color.Transparent
-        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.ForeColor = System.Drawing.SystemColors.WindowText
         Me.Label13.Location = New System.Drawing.Point(253, 11)
         Me.Label13.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
@@ -471,7 +471,7 @@ Partial Class FrmRegistrarAlumno
         '
         'TxtApellidoTutorP
         '
-        Me.TxtApellidoTutorP.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtApellidoTutorP.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtApellidoTutorP.ForeColor = System.Drawing.SystemColors.WindowText
         Me.TxtApellidoTutorP.Location = New System.Drawing.Point(257, 34)
         Me.TxtApellidoTutorP.Name = "TxtApellidoTutorP"
@@ -482,7 +482,7 @@ Partial Class FrmRegistrarAlumno
         '
         Me.Label14.AutoSize = True
         Me.Label14.BackColor = System.Drawing.Color.Transparent
-        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.ForeColor = System.Drawing.SystemColors.WindowText
         Me.Label14.Location = New System.Drawing.Point(18, 11)
         Me.Label14.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
@@ -493,7 +493,7 @@ Partial Class FrmRegistrarAlumno
         '
         'TxtNombreTutor
         '
-        Me.TxtNombreTutor.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtNombreTutor.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtNombreTutor.ForeColor = System.Drawing.SystemColors.WindowText
         Me.TxtNombreTutor.Location = New System.Drawing.Point(22, 34)
         Me.TxtNombreTutor.Name = "TxtNombreTutor"
@@ -520,7 +520,7 @@ Partial Class FrmRegistrarAlumno
         'CheckBoxDocumentos
         '
         Me.CheckBoxDocumentos.AutoSize = True
-        Me.CheckBoxDocumentos.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBoxDocumentos.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBoxDocumentos.Location = New System.Drawing.Point(323, 36)
         Me.CheckBoxDocumentos.Name = "CheckBoxDocumentos"
         Me.CheckBoxDocumentos.Size = New System.Drawing.Size(129, 24)
@@ -531,7 +531,7 @@ Partial Class FrmRegistrarAlumno
         'CheckBoxRepetidor
         '
         Me.CheckBoxRepetidor.AutoSize = True
-        Me.CheckBoxRepetidor.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBoxRepetidor.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBoxRepetidor.Location = New System.Drawing.Point(187, 36)
         Me.CheckBoxRepetidor.Name = "CheckBoxRepetidor"
         Me.CheckBoxRepetidor.Size = New System.Drawing.Size(107, 24)
@@ -542,7 +542,7 @@ Partial Class FrmRegistrarAlumno
         'CbbxCarrera
         '
         Me.CbbxCarrera.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource
-        Me.CbbxCarrera.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CbbxCarrera.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CbbxCarrera.ForeColor = System.Drawing.SystemColors.ControlText
         Me.CbbxCarrera.FormattingEnabled = True
         Me.CbbxCarrera.Items.AddRange(New Object() {"Automotriz", "Autotronica", "Construcción", "Hospitalidad Turistica", "Informatica", "Tronco Común"})
@@ -555,7 +555,7 @@ Partial Class FrmRegistrarAlumno
         '
         'RichTextBoxObservaciones
         '
-        Me.RichTextBoxObservaciones.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RichTextBoxObservaciones.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RichTextBoxObservaciones.Location = New System.Drawing.Point(17, 99)
         Me.RichTextBoxObservaciones.Name = "RichTextBoxObservaciones"
         Me.RichTextBoxObservaciones.Size = New System.Drawing.Size(435, 165)
@@ -566,7 +566,7 @@ Partial Class FrmRegistrarAlumno
         '
         Me.Label21.AutoSize = True
         Me.Label21.BackColor = System.Drawing.Color.Transparent
-        Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label21.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label21.ForeColor = System.Drawing.SystemColors.WindowText
         Me.Label21.Location = New System.Drawing.Point(13, 76)
         Me.Label21.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
@@ -579,7 +579,7 @@ Partial Class FrmRegistrarAlumno
         '
         Me.Label27.AutoSize = True
         Me.Label27.BackColor = System.Drawing.Color.Transparent
-        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label27.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label27.ForeColor = System.Drawing.SystemColors.WindowText
         Me.Label27.Location = New System.Drawing.Point(13, 11)
         Me.Label27.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
@@ -617,7 +617,7 @@ Partial Class FrmRegistrarAlumno
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label23.AutoEllipsis = True
         Me.Label23.BackColor = System.Drawing.Color.White
-        Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label23.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label23.ForeColor = System.Drawing.SystemColors.WindowText
         Me.Label23.Location = New System.Drawing.Point(90, 51)
         Me.Label23.Name = "Label23"
@@ -644,7 +644,7 @@ Partial Class FrmRegistrarAlumno
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label24.AutoEllipsis = True
         Me.Label24.BackColor = System.Drawing.SystemColors.Window
-        Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label24.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label24.ForeColor = System.Drawing.SystemColors.Window
         Me.Label24.Location = New System.Drawing.Point(0, 35)
         Me.Label24.Name = "Label24"
@@ -658,8 +658,8 @@ Partial Class FrmRegistrarAlumno
         Me.Label25.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label25.AutoEllipsis = True
-        Me.Label25.BackColor = System.Drawing.SystemColors.WindowFrame
-        Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label25.BackColor = System.Drawing.Color.FromArgb(CType(CType(203, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(225, Byte), Integer))
+        Me.Label25.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label25.ForeColor = System.Drawing.SystemColors.Window
         Me.Label25.Location = New System.Drawing.Point(501, 35)
         Me.Label25.Name = "Label25"
@@ -673,8 +673,8 @@ Partial Class FrmRegistrarAlumno
         Me.Label26.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label26.AutoEllipsis = True
-        Me.Label26.BackColor = System.Drawing.SystemColors.WindowFrame
-        Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label26.BackColor = System.Drawing.Color.FromArgb(CType(CType(203, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(225, Byte), Integer))
+        Me.Label26.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label26.ForeColor = System.Drawing.SystemColors.Window
         Me.Label26.Location = New System.Drawing.Point(-7, 35)
         Me.Label26.Name = "Label26"
@@ -688,8 +688,8 @@ Partial Class FrmRegistrarAlumno
         Me.Label28.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label28.AutoEllipsis = True
-        Me.Label28.BackColor = System.Drawing.SystemColors.WindowFrame
-        Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label28.BackColor = System.Drawing.Color.FromArgb(CType(CType(203, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(225, Byte), Integer))
+        Me.Label28.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label28.ForeColor = System.Drawing.SystemColors.Window
         Me.Label28.Location = New System.Drawing.Point(-1, 650)
         Me.Label28.Name = "Label28"
@@ -708,7 +708,7 @@ Partial Class FrmRegistrarAlumno
         Me.BtnActualizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.BtnActualizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.BtnActualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnActualizar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnActualizar.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnActualizar.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BtnActualizar.Location = New System.Drawing.Point(319, 54)
         Me.BtnActualizar.Name = "BtnActualizar"
@@ -727,7 +727,7 @@ Partial Class FrmRegistrarAlumno
         Me.BtnModificar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.BtnModificar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.BtnModificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnModificar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnModificar.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnModificar.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BtnModificar.Location = New System.Drawing.Point(354, 54)
         Me.BtnModificar.Name = "BtnModificar"
@@ -745,7 +745,7 @@ Partial Class FrmRegistrarAlumno
         Me.BtnCancelar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.BtnCancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.BtnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnCancelar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnCancelar.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnCancelar.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BtnCancelar.Location = New System.Drawing.Point(462, 55)
         Me.BtnCancelar.Name = "BtnCancelar"
@@ -763,7 +763,7 @@ Partial Class FrmRegistrarAlumno
         Me.BtnEliminar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.BtnEliminar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.BtnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnEliminar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnEliminar.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnEliminar.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BtnEliminar.Location = New System.Drawing.Point(426, 55)
         Me.BtnEliminar.Name = "BtnEliminar"
@@ -781,7 +781,7 @@ Partial Class FrmRegistrarAlumno
         Me.BtnAgregar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.BtnAgregar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.BtnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnAgregar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnAgregar.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnAgregar.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BtnAgregar.Location = New System.Drawing.Point(390, 54)
         Me.BtnAgregar.Name = "BtnAgregar"
@@ -799,7 +799,7 @@ Partial Class FrmRegistrarAlumno
         Me.BtnGuardar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.BtnGuardar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.BtnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnGuardar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnGuardar.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnGuardar.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BtnGuardar.Location = New System.Drawing.Point(319, 54)
         Me.BtnGuardar.Name = "BtnGuardar"
@@ -816,7 +816,7 @@ Partial Class FrmRegistrarAlumno
         Me.BtnBuscar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.BtnBuscar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.BtnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnBuscar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnBuscar.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnBuscar.ForeColor = System.Drawing.SystemColors.ControlText
         Me.BtnBuscar.Location = New System.Drawing.Point(12, 444)
         Me.BtnBuscar.Name = "BtnBuscar"
@@ -827,7 +827,7 @@ Partial Class FrmRegistrarAlumno
         '
         'TxtBuscar
         '
-        Me.TxtBuscar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtBuscar.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtBuscar.ForeColor = System.Drawing.SystemColors.ControlText
         Me.TxtBuscar.Location = New System.Drawing.Point(12, 481)
         Me.TxtBuscar.Name = "TxtBuscar"
@@ -838,7 +838,7 @@ Partial Class FrmRegistrarAlumno
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(250, Byte), Integer), CType(CType(252, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(504, 654)
         Me.Controls.Add(Me.BtnBuscar)
         Me.Controls.Add(Me.BtnGuardar)

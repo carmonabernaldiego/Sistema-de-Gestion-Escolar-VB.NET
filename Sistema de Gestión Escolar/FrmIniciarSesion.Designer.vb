@@ -45,44 +45,40 @@ Partial Class FrmIniciarSesion
         '
         Me.BtnMinimizar.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BtnMinimizar.BackColor = System.Drawing.Color.Transparent
-        Me.BtnMinimizar.BackgroundImage = CType(resources.GetObject("BtnMinimizar.BackgroundImage"), System.Drawing.Image)
-        Me.BtnMinimizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.BtnMinimizar.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.BtnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnMinimizar.FlatAppearance.BorderSize = 0
-        Me.BtnMinimizar.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
-        Me.BtnMinimizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.BtnMinimizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.BtnMinimizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(85, Byte), Integer))
+        Me.BtnMinimizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(41, Byte), Integer), CType(CType(59, Byte), Integer))
         Me.BtnMinimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnMinimizar.Font = New System.Drawing.Font("Monotype Corsiva", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnMinimizar.ForeColor = System.Drawing.Color.Black
-        Me.BtnMinimizar.Location = New System.Drawing.Point(317, 5)
+        Me.BtnMinimizar.Font = New System.Drawing.Font("Segoe UI", 11.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnMinimizar.ForeColor = System.Drawing.Color.White
+        Me.BtnMinimizar.Location = New System.Drawing.Point(458, 6)
         Me.BtnMinimizar.Margin = New System.Windows.Forms.Padding(0)
         Me.BtnMinimizar.Name = "BtnMinimizar"
-        Me.BtnMinimizar.Size = New System.Drawing.Size(25, 25)
+        Me.BtnMinimizar.Size = New System.Drawing.Size(48, 43)
         Me.BtnMinimizar.TabIndex = 6
         Me.BtnMinimizar.TabStop = False
+        Me.BtnMinimizar.Text = "-"
         Me.BtnMinimizar.UseVisualStyleBackColor = False
         '
         'BtnCerrar
         '
         Me.BtnCerrar.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BtnCerrar.BackColor = System.Drawing.Color.Transparent
-        Me.BtnCerrar.BackgroundImage = CType(resources.GetObject("BtnCerrar.BackgroundImage"), System.Drawing.Image)
-        Me.BtnCerrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.BtnCerrar.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.BtnCerrar.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnCerrar.FlatAppearance.BorderSize = 0
-        Me.BtnCerrar.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
-        Me.BtnCerrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.BtnCerrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.BtnCerrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(185, Byte), Integer), CType(CType(28, Byte), Integer), CType(CType(28, Byte), Integer))
+        Me.BtnCerrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(220, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.BtnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnCerrar.Font = New System.Drawing.Font("Monotype Corsiva", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnCerrar.ForeColor = System.Drawing.Color.Black
-        Me.BtnCerrar.Location = New System.Drawing.Point(346, 5)
+        Me.BtnCerrar.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnCerrar.ForeColor = System.Drawing.Color.White
+        Me.BtnCerrar.Location = New System.Drawing.Point(508, 6)
         Me.BtnCerrar.Margin = New System.Windows.Forms.Padding(0)
         Me.BtnCerrar.Name = "BtnCerrar"
-        Me.BtnCerrar.Size = New System.Drawing.Size(25, 25)
+        Me.BtnCerrar.Size = New System.Drawing.Size(48, 43)
         Me.BtnCerrar.TabIndex = 7
         Me.BtnCerrar.TabStop = False
+        Me.BtnCerrar.Text = "X"
         Me.BtnCerrar.UseVisualStyleBackColor = False
         '
         'LblHeader
@@ -90,80 +86,86 @@ Partial Class FrmIniciarSesion
         Me.LblHeader.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.LblHeader.AutoEllipsis = True
-        Me.LblHeader.BackColor = System.Drawing.SystemColors.WindowFrame
-        Me.LblHeader.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LblHeader.ForeColor = System.Drawing.SystemColors.Window
+        Me.LblHeader.BackColor = System.Drawing.Color.FromArgb(CType(CType(15, Byte), Integer), CType(CType(23, Byte), Integer), CType(CType(42, Byte), Integer))
+        Me.LblHeader.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblHeader.ForeColor = System.Drawing.Color.White
         Me.LblHeader.Location = New System.Drawing.Point(0, 0)
+        Me.LblHeader.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LblHeader.Name = "LblHeader"
-        Me.LblHeader.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.LblHeader.Size = New System.Drawing.Size(375, 35)
+        Me.LblHeader.Size = New System.Drawing.Size(562, 55)
         Me.LblHeader.TabIndex = 8
         Me.LblHeader.Text = "Iniciar Sesión"
         Me.LblHeader.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'BtnSalir
         '
-        Me.BtnSalir.BackColor = System.Drawing.Color.Transparent
-        Me.BtnSalir.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlDark
-        Me.BtnSalir.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
-        Me.BtnSalir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.BtnSalir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.BtnSalir.BackColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(245, Byte), Integer), CType(CType(249, Byte), Integer))
+        Me.BtnSalir.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BtnSalir.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(203, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(225, Byte), Integer))
+        Me.BtnSalir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(203, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(225, Byte), Integer))
+        Me.BtnSalir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(240, Byte), Integer))
         Me.BtnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnSalir.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnSalir.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.BtnSalir.Location = New System.Drawing.Point(250, 200)
+        Me.BtnSalir.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnSalir.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(85, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.BtnSalir.Location = New System.Drawing.Point(297, 305)
+        Me.BtnSalir.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BtnSalir.Name = "BtnSalir"
-        Me.BtnSalir.Size = New System.Drawing.Size(90, 32)
+        Me.BtnSalir.Size = New System.Drawing.Size(172, 52)
         Me.BtnSalir.TabIndex = 16
         Me.BtnSalir.Text = "Salir"
         Me.BtnSalir.UseVisualStyleBackColor = False
         '
         'CbbxOpcion
         '
-        Me.CbbxOpcion.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource
-        Me.CbbxOpcion.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CbbxOpcion.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.CbbxOpcion.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.CbbxOpcion.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CbbxOpcion.ForeColor = System.Drawing.Color.FromArgb(CType(CType(15, Byte), Integer), CType(CType(23, Byte), Integer), CType(CType(42, Byte), Integer))
         Me.CbbxOpcion.FormattingEnabled = True
         Me.CbbxOpcion.Items.AddRange(New Object() {"Administrador", "Alumno", "Docente"})
-        Me.CbbxOpcion.Location = New System.Drawing.Point(209, 52)
+        Me.CbbxOpcion.Location = New System.Drawing.Point(248, 83)
+        Me.CbbxOpcion.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.CbbxOpcion.Name = "CbbxOpcion"
-        Me.CbbxOpcion.Size = New System.Drawing.Size(131, 28)
+        Me.CbbxOpcion.Size = New System.Drawing.Size(268, 36)
         Me.CbbxOpcion.Sorted = True
         Me.CbbxOpcion.TabIndex = 12
-        Me.CbbxOpcion.Text = "Seleccioné"
         '
         'TxtContrasena
         '
-        Me.TxtContrasena.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TxtContrasena.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.TxtContrasena.Location = New System.Drawing.Point(209, 154)
+        Me.TxtContrasena.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TxtContrasena.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtContrasena.ForeColor = System.Drawing.Color.FromArgb(CType(CType(15, Byte), Integer), CType(CType(23, Byte), Integer), CType(CType(42, Byte), Integer))
+        Me.TxtContrasena.Location = New System.Drawing.Point(248, 225)
+        Me.TxtContrasena.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TxtContrasena.Name = "TxtContrasena"
-        Me.TxtContrasena.Size = New System.Drawing.Size(131, 26)
+        Me.TxtContrasena.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.TxtContrasena.Size = New System.Drawing.Size(269, 34)
         Me.TxtContrasena.TabIndex = 14
-        Me.TxtContrasena.UseSystemPasswordChar = True
         '
         'TxtUsuario
         '
-        Me.TxtUsuario.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TxtUsuario.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.TxtUsuario.Location = New System.Drawing.Point(209, 104)
+        Me.TxtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TxtUsuario.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtUsuario.ForeColor = System.Drawing.Color.FromArgb(CType(CType(15, Byte), Integer), CType(CType(23, Byte), Integer), CType(CType(42, Byte), Integer))
+        Me.TxtUsuario.Location = New System.Drawing.Point(248, 154)
+        Me.TxtUsuario.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TxtUsuario.Name = "TxtUsuario"
-        Me.TxtUsuario.Size = New System.Drawing.Size(131, 26)
+        Me.TxtUsuario.Size = New System.Drawing.Size(269, 34)
         Me.TxtUsuario.TabIndex = 13
         '
         'BtnIngresar
         '
-        Me.BtnIngresar.BackColor = System.Drawing.Color.Transparent
-        Me.BtnIngresar.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlDark
-        Me.BtnIngresar.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
-        Me.BtnIngresar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.BtnIngresar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.BtnIngresar.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(185, Byte), Integer), CType(CType(129, Byte), Integer))
+        Me.BtnIngresar.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BtnIngresar.FlatAppearance.BorderSize = 0
+        Me.BtnIngresar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(4, Byte), Integer), CType(CType(120, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BtnIngresar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(5, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(105, Byte), Integer))
         Me.BtnIngresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnIngresar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnIngresar.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.BtnIngresar.Location = New System.Drawing.Point(33, 200)
+        Me.BtnIngresar.Font = New System.Drawing.Font("Segoe UI Semibold", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnIngresar.ForeColor = System.Drawing.Color.White
+        Me.BtnIngresar.Location = New System.Drawing.Point(93, 305)
+        Me.BtnIngresar.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BtnIngresar.Name = "BtnIngresar"
-        Me.BtnIngresar.Size = New System.Drawing.Size(90, 32)
+        Me.BtnIngresar.Size = New System.Drawing.Size(172, 52)
         Me.BtnIngresar.TabIndex = 15
         Me.BtnIngresar.Text = "Ingresar"
         Me.BtnIngresar.UseVisualStyleBackColor = False
@@ -172,12 +174,12 @@ Partial Class FrmIniciarSesion
         '
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label3.Location = New System.Drawing.Point(29, 157)
+        Me.Label3.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(85, Byte), Integer))
+        Me.Label3.Location = New System.Drawing.Point(42, 229)
         Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(92, 20)
+        Me.Label3.Size = New System.Drawing.Size(110, 28)
         Me.Label3.TabIndex = 9
         Me.Label3.Text = "Contraseña"
         '
@@ -185,12 +187,12 @@ Partial Class FrmIniciarSesion
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label2.Location = New System.Drawing.Point(29, 107)
+        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(85, Byte), Integer))
+        Me.Label2.Location = New System.Drawing.Point(42, 158)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(64, 20)
+        Me.Label2.Size = New System.Drawing.Size(79, 28)
         Me.Label2.TabIndex = 10
         Me.Label2.Text = "Usuario"
         '
@@ -198,12 +200,12 @@ Partial Class FrmIniciarSesion
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label1.Location = New System.Drawing.Point(29, 55)
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(85, Byte), Integer))
+        Me.Label1.Location = New System.Drawing.Point(42, 88)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(117, 20)
+        Me.Label1.Size = New System.Drawing.Size(144, 28)
         Me.Label1.TabIndex = 11
         Me.Label1.Text = "Tipo de Cuenta"
         '
@@ -211,64 +213,53 @@ Partial Class FrmIniciarSesion
         '
         Me.PictureBoxHerramientas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.PictureBoxHerramientas.Image = CType(resources.GetObject("PictureBoxHerramientas.Image"), System.Drawing.Image)
-        Me.PictureBoxHerramientas.Location = New System.Drawing.Point(7, 8)
+        Me.PictureBoxHerramientas.Location = New System.Drawing.Point(12, 12)
+        Me.PictureBoxHerramientas.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.PictureBoxHerramientas.Name = "PictureBoxHerramientas"
-        Me.PictureBoxHerramientas.Size = New System.Drawing.Size(20, 20)
+        Me.PictureBoxHerramientas.Size = New System.Drawing.Size(30, 31)
         Me.PictureBoxHerramientas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBoxHerramientas.TabIndex = 17
         Me.PictureBoxHerramientas.TabStop = False
         '
         'Label4
         '
-        Me.Label4.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.Label4.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label4.AutoEllipsis = True
-        Me.Label4.BackColor = System.Drawing.SystemColors.WindowFrame
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.SystemColors.Window
-        Me.Label4.Location = New System.Drawing.Point(372, 35)
+        Me.Label4.BackColor = System.Drawing.Color.FromArgb(CType(CType(203, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(225, Byte), Integer))
+        Me.Label4.Location = New System.Drawing.Point(561, 55)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label4.Size = New System.Drawing.Size(10, 216)
+        Me.Label4.Size = New System.Drawing.Size(2, 329)
         Me.Label4.TabIndex = 18
-        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label5
         '
-        Me.Label5.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label5.AutoEllipsis = True
-        Me.Label5.BackColor = System.Drawing.SystemColors.WindowFrame
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.SystemColors.Window
-        Me.Label5.Location = New System.Drawing.Point(-7, 35)
+        Me.Label5.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.Label5.BackColor = System.Drawing.Color.FromArgb(CType(CType(203, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(225, Byte), Integer))
+        Me.Label5.Location = New System.Drawing.Point(0, 55)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label5.Size = New System.Drawing.Size(10, 216)
+        Me.Label5.Size = New System.Drawing.Size(2, 329)
         Me.Label5.TabIndex = 19
-        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label6
         '
-        Me.Label6.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.Label6.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label6.AutoEllipsis = True
-        Me.Label6.BackColor = System.Drawing.SystemColors.WindowFrame
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.SystemColors.Window
-        Me.Label6.Location = New System.Drawing.Point(0, 247)
+        Me.Label6.BackColor = System.Drawing.Color.FromArgb(CType(CType(203, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(225, Byte), Integer))
+        Me.Label6.Location = New System.Drawing.Point(0, 383)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Label6.Size = New System.Drawing.Size(376, 10)
+        Me.Label6.Size = New System.Drawing.Size(562, 2)
         Me.Label6.TabIndex = 20
-        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'FrmIniciarSesion
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.ClientSize = New System.Drawing.Size(375, 250)
+        Me.BackColor = System.Drawing.Color.White
+        Me.ClientSize = New System.Drawing.Size(562, 385)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
@@ -286,6 +277,7 @@ Partial Class FrmIniciarSesion
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "FrmIniciarSesion"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Iniciar Sesión"
